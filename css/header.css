@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.node_pic{
+    width: 88px;
+    height: 45px;
+    margin-left: 233px;
+}
+
+.switch_button {
+    height: 45px;
+    margin-right: 233px;
+    
+    padding-top: 10px;
+    background-color: white;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dark_button {
+    padding-top: 10px;
+    background-color: #676565;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    font-size: 23px;
+    color: white;
+}
+
+.switch_button:hover {
+    cursor: pointer;
+    color: blue;
+    background-color: rgb(241, 240, 240);
+}
+
+.page_title {
+    margin-top: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.new_card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin-top: 20px;
+    
+    width: 498px;
+    height: 172px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}   
+
+.new_card_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin-top: 20px;
+    
+    width: 498px;
+    height: 172px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}   
+
+.new_card_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin-top: 20px;
+    
+    width: 498px;
+    height: 172px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}   
+
+
+.top_part {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.card_info {
+    margin-left: 10px;
+}
+
+.card_img {
+    width: 100px;
+    height: 100px;
+}
+
+.bottom_part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.autor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.button_read:hover {
+    cursor: pointer;
+    color: blue;
+    background-color: rgb(241, 240, 240);
+}
+
+.button_read {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 123px;
+    height: 31px;
+}
+.button_read_2 {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 123px;
+    height: 31px;
+}
+.button_read_3 {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 123px;
+    height: 31px;
+}
+
+.dark_header {
+    margin: 0;
+    padding: 0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #767272;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+}
+.dark_title {
+    color: white;
+}
+.dark_content {
+    background-color: #818181;
+    color: white;
+}
+.dark_card {
+    background-color: #2B2626;
+    color: white;
+}
+.dark_card_2 {
+    background-color: #2B2626;
+    color: white;
+}
+.dark_card_3 {
+    background-color: #2B2626;
+    color: white;
+}
+.dark_button_read {
+    background-color: #676565;
+    color: white;
+}
+.dark_button_read_2 {
+    background-color: #676565;
+    color: white;
+}
+.dark_button_read_3 {
+    background-color: #676565;
+    color: white;
+}
